@@ -10,7 +10,7 @@ fun main(){
         println("A área deste triângulo é: ${base * altura / 2}")
     }
     else {
-        ("Não é possível calcular com estes números, por favor insira valores válidos.")
+        println("Não é possível calcular com estes números, por favor insira valores válidos.")
     }
 
 }
