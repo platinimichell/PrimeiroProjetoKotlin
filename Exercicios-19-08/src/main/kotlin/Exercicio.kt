@@ -16,8 +16,8 @@ fun main(){
         println("***  2) Excluir    ***")
         println("***  3) Atualizar  ***")
         println("***  4) Exibir     ***")
-        println("***  5) Sair       ***")
-        println("Digite a opção desejada: ")
+        println("***  5) Sair       ***\n")
+        print("Digite a opção desejada: ")
 
         when(readln().toInt()){
             1 -> insereItem()

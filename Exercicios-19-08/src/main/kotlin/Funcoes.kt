@@ -9,7 +9,7 @@ fun insereItem() {
 
 //        println("Quando concluir aperte 'Enter' para finalizar.")
 
-        if (sku != "") {
+        if (sku != "" ) {
             itens.add(sku)
         } else {
             break
@@ -62,7 +62,9 @@ fun atualizarItem(){
 }
 
 fun exibirItens(){
+    itens.forEach{
+        println("*** $it ***")
+    }
     println()
-    println("Estoque atualizado: $itens")
-    println("Quantidade de itens: ${itens.size}")
+    println("Total de itens: ${itens.size}")
 }
