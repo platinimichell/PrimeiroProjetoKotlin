@@ -7,6 +7,8 @@ class Cliente(
 
     private var listaCompras = mutableListOf<String>()
 
+    val list = listaCompras
+
     init {
        if (nome.isBlank()){
            throw Exception("Cadastro incorreto.")
